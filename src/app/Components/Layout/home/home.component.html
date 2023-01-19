@@ -1,0 +1,18 @@
+  <app-header></app-header>
+  <div class="main-content" >
+    <app-sidebar class="side-menu"></app-sidebar>
+    <div class="content" >
+      <app-subheader></app-subheader>
+      <div class="pageContent mt-10">
+        <div class="col-md-12">
+          <div class="tab-container pt-10 mt-10">
+            <app-navtabs></app-navtabs>
+            <div class="tab-content p-10">
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
